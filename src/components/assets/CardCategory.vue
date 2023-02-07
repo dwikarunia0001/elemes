@@ -1,5 +1,5 @@
 <template>
-    <section class="md:gap-[11px] md:flex px-[117px]">
+    <section class="flex px-[33px] gap-[11px] md:px-[117px] overflow-x-auto scrollbar-hide">
         <div v-for="(item, index) in category" :key="index" class="mb-[11px] text-center items-center px-[81px] py-[30px] rounded-[8px] w-[230px]" :style="{'background-color': item.color }">
             <img class="w-[47px] h-[52px] mb-[20px]" :src="item.img" :alt="item.name">
             <p class="font-medium text-base">{{ item.name }}</p>
