@@ -2,7 +2,8 @@
   <!--Navbar-->
   <Navbar />
   <main>
-
+    <CardHero />
+    <CardCategory />
   </main>
   <!--Footer-->
   <!--
@@ -18,11 +19,15 @@
 <script>
   import ButtonAction from './components/assets/ButtonAction.vue';
   import Navbar from './components/Navbar.vue';
+  import CardHero from './components/assets/CardHero.vue';
+  import CardCategory from './components/assets/CardCategory.vue';
 
   export default {
     components: {
       ButtonAction,
-      Navbar
+      Navbar,
+      CardHero,
+      CardCategory
     },
     data() {
       return {

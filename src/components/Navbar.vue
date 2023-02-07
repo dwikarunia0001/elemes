@@ -1,5 +1,5 @@
 <template>
-    <section class="flex px-[33px] md:px-[190px] justify-between text-sm">
+    <section class="flex px-[33px] md:px-[117px] justify-between text-sm">
         <div class="py-[19px]">
             <img class="w-[150px] h-[36px] md:w-[207px] md:h-[50px]" src="../assets/logo-elemes.png" alt="logo">
         </div>
