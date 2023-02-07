@@ -3,6 +3,7 @@
   <Navbar />
   <main>
     <CardHero />
+    <TitlePerCategory :title1="propGroups.titleGroup.title1" :title2="propGroups.titleGroup.title2"/>
     <CardCategory />
   </main>
   <!--Footer-->
@@ -21,19 +22,25 @@
   import Navbar from './components/Navbar.vue';
   import CardHero from './components/assets/CardHero.vue';
   import CardCategory from './components/assets/CardCategory.vue';
+  import TitlePerCategory from './components/assets/TitlePerCategory.vue';
 
   export default {
     components: {
       ButtonAction,
       Navbar,
       CardHero,
-      CardCategory
+      CardCategory,
+      TitlePerCategory
     },
     data() {
       return {
         propGroups: {
           green: '#8BAC3E',
-          title: 'Daftar Sekarang'
+          title: 'Daftar Sekarang',
+          titleGroup: {
+            title1: 'Browser Our Category',
+            title2: 'Receipt'
+          }
         }
       }
     }
