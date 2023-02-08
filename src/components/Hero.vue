@@ -2,13 +2,13 @@
     <section>
         <div class="content px-[33px] flex justify-between md:px-[117px]">
             <div class="flex flex-col gap-y-[32px]">
-                <p class="text-[#8BAC3E] font-medium text-[64px] w-[480px]">Good Food Us Good Mood</p>
+                <p class="text-[50px] text-[#8BAC3E] md:font-medium md:text-[64px] md:w-[480px]">Good Food Us Good Mood</p>
                 <div class="md:hidden justify-center">
-                    <img class="w-[300px] h-[300px] text-center mb-6" src="../assets/Hero/food.png" alt="food">
-                    <img class="absolute top-[290px] left-[10px]  w-[350px] h-[350px]" src="../assets/Hero/food-background.png" alt="bg-food">
-                    <div class="absolute top-[570px] left-[180px]"><CardHero /></div>
+                    <img class="w-[200px] h-[200px] text-center mb-6" src="../assets/Hero/food.png" alt="food">
+                    <img class="absolute top-[250px] left-[10px]  w-[250px] h-[250px]" src="../assets/Hero/food-background.png" alt="bg-food">
+                    <div class="absolute top-[400px] left-[100px]"><CardHero /></div>
                 </div>
-                <p class="w-[400px] md:w-[480px]">I would think that conserving our natural resources should be a conservative position: Not to waste food, and not to throw away a lot of the food that we buy.</p>
+                <p class="w-full md:w-[480px]">I would think that conserving our natural resources should be a conservative position: Not to waste food, and not to throw away a lot of the food that we buy.</p>
                 <span class="flex gap-[16px]">
                     <ButtonAction />
                     <ButtonAction :title=propGroupsButton.title :color=propGroupsButton.grey class="text-dark"/>
