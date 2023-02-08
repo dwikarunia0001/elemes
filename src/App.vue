@@ -14,7 +14,7 @@
       </div>
     </div>
   </main>
-  <!--Footer-->
+  <Footer />
   <!--
   <nav>
     <router-link to="/">Home</router-link> |
@@ -32,6 +32,7 @@
   import CardCategory from './components/assets/CardCategory.vue';
   import TitlePerCategory from './components/assets/TitlePerCategory.vue';
   import CardTrending from './components/assets/CardTrending.vue';
+  import Footer from './components/Footer.vue';
 
   export default {
     components: {
@@ -40,7 +41,8 @@
       CardHero,
       CardCategory,
       TitlePerCategory,
-      CardTrending
+      CardTrending,
+      Footer
     },
     data() {
       return {
