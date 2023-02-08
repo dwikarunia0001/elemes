@@ -2,11 +2,11 @@
     <section>
         <div class="content px-[33px] flex justify-between md:px-[117px]">
             <div class="flex flex-col gap-y-[32px]">
-                <p class="text-[50px] text-[#8BAC3E] md:font-medium md:text-[64px] md:w-[480px]">Good Food Us Good Mood</p>
+                <p class="text-[30px] text-[#8BAC3E] md:font-medium md:text-[64px] md:w-[480px]">Good Food Us Good Mood</p>
                 <div class="md:hidden justify-center">
                     <img class="w-[200px] h-[200px] text-center mb-6" src="../assets/Hero/food.png" alt="food">
-                    <img class="absolute top-[250px] left-[10px]  w-[250px] h-[250px]" src="../assets/Hero/food-background.png" alt="bg-food">
-                    <div class="absolute top-[400px] left-[100px]"><CardHero /></div>
+                    <img class="absolute top-[140px] left-[10px]  w-[250px] h-[250px]" src="../assets/Hero/food-background.png" alt="bg-food">
+                    <div class="absolute top-[320px] left-[90px]"><CardHero /></div>
                 </div>
                 <p class="w-full md:w-[480px]">I would think that conserving our natural resources should be a conservative position: Not to waste food, and not to throw away a lot of the food that we buy.</p>
                 <span class="flex gap-[16px]">
