@@ -1,8 +1,8 @@
 <template>
   <Navbar />
   <main>
-    <CardHero />
-    <div>
+    <Hero />
+    <div class="mt-[200px]">
       <TitlePerCategory :title1="propGroups.titleGroup.title1" :title2="propGroups.titleGroup.title2"/>
       <CardCategory />
     </div>
@@ -33,6 +33,7 @@
   import TitlePerCategory from './components/assets/TitlePerCategory.vue';
   import CardTrending from './components/assets/CardTrending.vue';
   import Footer from './components/Footer.vue';
+  import Hero from './components/Hero.vue';
 
   export default {
     components: {
@@ -42,7 +43,8 @@
       CardCategory,
       TitlePerCategory,
       CardTrending,
-      Footer
+      Footer,
+      Hero
     },
     data() {
       return {
